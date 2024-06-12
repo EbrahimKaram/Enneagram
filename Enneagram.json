@@ -1,0 +1,145 @@
+{
+    "nodes": [
+        {
+            "id": "Reformer",
+            "group": 1
+        },
+        {
+            "id": "Helper",
+            "group": 1
+        },
+        {
+            "id": "Achiever",
+            "group": 3
+        },
+        {
+            "id": "Individualist",
+            "group": 4
+        },
+        {
+            "id": "Investigator",
+            "group": 5
+        },
+        {
+            "id": "Loyalist",
+            "group": 6
+        }
+        ,
+        {
+            "id": "Enthusiast",
+            "group": 7
+        }
+            ,
+        {
+            "id": "Challenger",
+            "group": 8
+        }
+                 ,
+        {
+            "id": "Peacemaker",
+            "group": 8
+        }
+
+  ],
+    "links": [
+        {
+            "source": "Reformer",
+            "target": "Helper",
+            "value": 6
+        },
+        {
+            "source": "Helper",
+            "target": "Achiever",
+            "value": 6
+        },
+        {
+            "source": "Achiever",
+            "target": "Investigator",
+            "value": 6
+        },
+        {
+            "source": "Investigator",
+            "target": "Individualist",
+            "value": 6
+        },
+        {
+            "source": "Individualist",
+            "target": "Loyalist",
+            "value": 6
+        },
+        {
+            "source": "Loyalist",
+            "target": "Enthusiast",
+            "value": 6
+        },
+        {
+            "source": "Enthusiast",
+            "target": "Challenger",
+            "value": 6
+        },
+        {
+            "source": "Challenger",
+            "target": "Peacemaker",
+            "value": 6
+        },
+        {
+            "source": "Peacemaker",
+            "target": "Reformer",
+            "value": 6
+        }
+        ,
+        {
+            "source": "Achiever",
+            "target": "Peacemaker",
+            "value": 6
+        }
+        ,
+        {
+            "source": "Peacemaker",
+            "target": "Loyalist",
+            "value": 6
+        },
+        {
+            "source": "Loyalist",
+            "target": "Achiever",
+            "value": 6
+        },
+
+        {
+            "source": "Helper",
+            "target": "Challenger",
+            "value": 6
+        }
+        ,
+        {
+            "source": "Challenger",
+            "target": "Investigator",
+            "value": 6
+        },
+
+        {
+            "source": "Investigator",
+            "target": "Enthusiast",
+            "value": 6
+        },
+
+        {
+            "source": "Enthusiast",
+            "target": "Reformer",
+            "value": 6
+        }
+        ,
+
+        {
+            "source": "Reformer",
+            "target": "Individualist",
+            "value": 6
+        },
+
+        {
+            "source": "Individualist",
+            "target": "Helper",
+            "value": 6
+        }
+  ]
+}
